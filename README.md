@@ -8,7 +8,7 @@ A user visits a website with two text fields:
 
 After entering the api key and restaurant name, the user are given a list of restaurants to choose from (as their seed node). Once the restaurant is picked a d3 graph with a single node will appear. As time passes the graph will grow with restaurants the foursquare api returns as similar, starting with the seed node and continuing down the network. The graph will continue to grow until the user clicks the spacebar.
 
-## Fourquare API Endpoints
+## Foursquare API Endpoints
 - https://api.foursquare.com/v2/venues/search?near=London&query={venueName}&oauth_token=XXXXXXX&v=20161005
 - https://api.foursquare.com/v2/venues/{venueId}/similar?oauth_token=XXXXXXX&v=20161005
 
