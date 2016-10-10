@@ -3,10 +3,10 @@ Build a d3 graph of similar restaurants in London using the foursquare api. Feel
 
 ## User Story
 A user visits a website with two text fields: 
-- Foursqaure API Key
+- Foursquare API Key,
 - Restaurant Name
 
-After entering the api key and restaurant name, the user are given a list of restaurants to choose from (as their seed node). Once the restaurant is picked a d3 graph with a single node will appear. As time passes the graph will grow with restaurants the foursquare api returns as similar, starting with the seed node and continuing down the network. The graph will continue to grow until the user clicks the spacebar.
+After entering the api key and restaurant name, the user is given a list of restaurants to choose from (as their seed node). Once the restaurant is picked a d3 graph with a single node will appear. As time passes the graph will grow with restaurants the foursquare api returns as similar, starting with the seed node and continuing down the network. The graph will continue to grow until the user clicks the spacebar.
 
 ## Fourquare API Endpoints
 - https://api.foursquare.com/v2/venues/search?near=London&query={venueName}&oauth_token=XXXXXXX&v=20161005
